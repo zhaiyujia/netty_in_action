@@ -61,6 +61,7 @@ public class ChatServer {
         }
         channelGroup.close();
         group.shutdownGracefully();
+
     }
 
     public static void main(String[] args) throws Exception {
